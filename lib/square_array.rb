@@ -1,8 +1,8 @@
 require('pry')
 
-def square_array(array)
+def square_array(arr)
     counter = 0
-      while counter <= array.length do
+      while counter <= arr.length do
         binding.pry
         newAr = array[counter] *= array[counter]
         counter += 1
